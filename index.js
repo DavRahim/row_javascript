@@ -11,3 +11,4 @@ console.log("amader desh " + "dada der desh");
 
 console.log(typeof ("akfk"));
 
+console.log(Math.round(Math.random() * 100));
