@@ -33,3 +33,11 @@ const evenArr = Arr.map((item) => {
 })
 
 console.log(evenArr, "evenArr");
+
+const notFour = evenArr.filter((item) => {
+    if (item !== 4) {
+        return item
+    }
+})
+
+console.log(notFour, "notFour");
