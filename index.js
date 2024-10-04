@@ -4,21 +4,21 @@
 
 // console.log(Math.round(0.999));
 
-console.log("text" + "anything");
+// console.log("text" + "anything");
 
-console.log("amader desh " + "dada der desh");
+// console.log("amader desh " + "dada der desh");
 
 
-console.log(typeof ("akfk"));
+// console.log(typeof ("akfk"));
 
-console.log(Math.round(Math.random() * 100));
+// console.log(Math.round(Math.random() * 100));
 
 
 const Arr = [223, 3, 3, 4, 4, 4, 11, 4, 4, 4]
 
 Arr.forEach((item) => {
     if (item % 2 === 0) {
-        console.log(item);
+        // console.log(item);
     }
 
 })
@@ -32,12 +32,20 @@ const evenArr = Arr.map((item) => {
     return oddArr
 })
 
-console.log(evenArr, "evenArr");
+// console.log(evenArr, "evenArr");
 
-const notFour = evenArr.filter((item) => {
-    if (item !== 4) {
+const notFour = evenArr.
+    filter((item) => {
+        //    console.log(item);
+    })
+
+
+const roundNumber = [22, 23, 24, 45];
+
+const randNum = roundNumber.filter((item) => {
+    if (item % 2 === 0) {
         return item
     }
 })
 
-console.log(notFour, "notFour");
+console.log(randNum);
