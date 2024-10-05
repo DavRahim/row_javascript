@@ -49,3 +49,9 @@ const randNum = roundNumber.filter((item) => {
 })
 
 console.log(randNum);
+
+console.log(Math.round(Math.random() * 100));
+
+
+
+
