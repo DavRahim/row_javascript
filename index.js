@@ -54,4 +54,6 @@ console.log(Math.round(Math.random() * 100));
 
 
 
+const numberOdd = roundNumber.findIndex((item) => item === 33)
 
+console.log(numberOdd, "numberOdd");
