@@ -57,3 +57,11 @@ console.log(Math.round(Math.random() * 100));
 const numberOdd = roundNumber.findIndex((item) => item === 33)
 
 console.log(numberOdd, "numberOdd");
+
+
+const manObj = {
+    name: "Kalmal Uddin",
+    age: 40,
+    height: 56,
+    education: "HSC",
+}
