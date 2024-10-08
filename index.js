@@ -65,3 +65,16 @@ const manObj = {
     height: 56,
     education: "HSC",
 }
+
+const carObj = {
+    name: "Toyta",
+    model: "Allon",
+    price: 3200000,
+    kilo: 30000
+}
+
+console.log(carObj.name);
+
+
+
+
