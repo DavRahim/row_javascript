@@ -76,5 +76,48 @@ const carObj = {
 console.log(carObj.name);
 
 
-
+const products = [
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
+]
 
