@@ -119,6 +119,12 @@ const products = [
         categories: "oil",
         img: "https//:www.index.com"
     },
+    {
+        name: "coconut oil",
+        price: 50,
+        categories: "oil",
+        img: "https//:www.index.com"
+    },
 ]
 
 console.log(products);
