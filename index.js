@@ -133,4 +133,21 @@ const products = [
     },
 ]
 
-console.log(products);
+
+
+
+const productMap = products.map((item) => {
+    return {
+        name: item.categories,
+        categories: item.img
+    }
+})
+
+
+
+
+
+
+
+
+console.log(productMap);
