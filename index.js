@@ -127,7 +127,7 @@ const products = [
     },
     {
         name: "coconut oil",
-        price: 50,
+        price: 49,
         categories: "oil",
         img: "https//:www.index.com"
     },
@@ -144,7 +144,9 @@ const productMap = products.map((item) => {
 })
 
 const productFilter = products.filter((item) => {
-    return item
+    if (item.price === 49) {
+        return item
+    }
 })
 
 
