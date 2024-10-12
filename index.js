@@ -143,11 +143,13 @@ const productMap = products.map((item) => {
     }
 })
 
+const productFilter = products.filter((item) => {
+    return item
+})
 
 
 
 
 
 
-
-console.log(productMap);
+console.log(productFilter);
