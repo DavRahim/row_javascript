@@ -148,6 +148,11 @@ const productFilter = products.filter((item) => {
         return item
     }
 })
+const productFilter2 = products.filter((item) => {
+    if (item.price === 49) {
+        return item
+    }
+})
 
 
 
